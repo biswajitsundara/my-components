@@ -1,0 +1,74 @@
+{
+  "name": "@biswajitsundara/my-components",
+  "version": "0.0.2",
+  "description": "This is a simple react component library",
+  "author": "Biswajit Sundara",
+  "keywords": ["react-component"],
+  "license": "MIT", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biswajitsundara/my-components"
+  },
+  "files": [
+    "dist",
+    "docs/README.md"
+  ],
+  "main": "./dist/my-components.umd.js",
+  "module": "./dist/my-components.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/my-components.es.js",
+      "require": "./dist/my-components.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/react": "^12.1.3",
+    "@vitejs/plugin-react": "^1.0.7",
+    "c8": "^7.11.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-react": "^7.28.0",
+    "jsdom": "^19.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "vite": "^2.8.0",
+    "vitest": "^0.3.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2020": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  }
+}
