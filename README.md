@@ -1,27 +1,34 @@
 # my-components
 This is a simple react component library
 
-## To run in development
+## How to install
+- Create a react project using (e.g vite)
+- install the package
+
 ```bash
-npm run dev
+  npm i @biswajitsundara/my-components
 ```
 
-## To run tests
+## Import the component
+- Import the component
+
 ```bash
-npm test
+`import {Jumbotron} from '@biswajitsundara/my-components'
 ```
 
-## To build and publish
+## Use the component
+- Use the component in App.jsx or any components as below
+
 ```bash
-npm run build
+ <Jumbotron title={"My Website"} text={"Hello App"} button={"Hello"} />
 ```
 
-followed by
+## Run the app
+If you are using vite then
 
 ```bash
-npm publish
+ npm run dev
 ```
 
 ## License
 MIT © Biswajit Sundara
-

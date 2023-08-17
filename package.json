@@ -3,15 +3,16 @@
   "version": "0.0.2",
   "description": "This is a simple react component library",
   "author": "Biswajit Sundara",
-  "keywords": ["react-component"],
-  "license": "MIT", 
+  "keywords": [
+    "react-component"
+  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/biswajitsundara/my-components"
   },
   "files": [
-    "dist",
-    "docs/README.md"
+    "dist"
   ],
   "main": "./dist/my-components.umd.js",
   "module": "./dist/my-components.es.js",
@@ -29,7 +30,8 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "prop-types": "^15.8.1"
+    "prop-types": "^15.8.1",
+    "styled-components": "^6.0.7"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.11.3",

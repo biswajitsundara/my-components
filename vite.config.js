@@ -23,5 +23,12 @@ export default defineConfig({
       }
     }
   },
-  plugins: [react()]
+  plugins: [react()],
+  css: {
+    // This will ensure that your CSS is included in the build
+    // and properly associated with your library
+    lib: {
+      include: /\.css$/,
+    },
+  },
 })

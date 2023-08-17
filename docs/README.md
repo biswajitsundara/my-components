@@ -1,20 +1,27 @@
 # my-components
-This is a simple react component library 
+This is a simple react component library
 
-## How to install
-* Create a react project using (e.g vite)
-* install the package `npm i @biswajitsundara/my-components`
-
-
-## Use the component
-* Import the component `import HelloWorld from '@biswajitsundara/my-components'`
-* Use the component in App.jsx as below
-```js
- <HelloWorld greetee={"Biswajit"} />
+## To run in development
+```bash
+npm run dev
 ```
-* Run the app 
 
+## To run tests
+```bash
+npm test
+```
 
-## Author
-Biswajit Sundara
+## To build and publish
+```bash
+npm run build
+```
+
+followed by
+
+```bash
+npm publish
+```
+
+## License
+MIT © Biswajit Sundara
 
